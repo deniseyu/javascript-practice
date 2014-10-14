@@ -15,3 +15,7 @@ Javabuzz.prototype.isDivisibleBySix = function(number) {
 Javabuzz.prototype.isDivisibleByFour = function(number) {
   return this._isDivisibleBy(number, 4);
 };
+
+Javabuzz.prototype.isDivisibleByThree = function(number) {
+	return this._isDivisibleBy(number, 3);
+};

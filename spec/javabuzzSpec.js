@@ -24,5 +24,9 @@ describe('Javabuzz', function(){
       expect(javabuzz.isDivisibleByThree(3)).toBe(true);
     });
 
+    it('two', function(){
+    	expect(javabuzz.isDivisibleByTwo(2)).toBe(true);
+    });
+
 	});
 });
