@@ -37,11 +37,15 @@ describe('Javabuzz', function(){
   describe('should say', function(){
 
     it('Check yourself before you wreck yourself', function(){
-      expect(javabuzz.says(17)).toEqual('Check yourself before you wreck yourself');
+      expect(javabuzz.says(17)).toEqual("Check yourself before you wreck yourself");
     });
 
     it('And I cannot lie', function(){
-    	expect(javabuzz.says(12)).toEqual('And I cannot lie');
+    	expect(javabuzz.says(12)).toEqual("And I cannot lie");
+    });
+
+    it('I like big butts', function(){
+      expect(javabuzz.says(6)).toEqual("I like big butts");
     });
 
   });
