@@ -8,6 +8,10 @@ describe('Javabuzz', function(){
 
 	describe('is divisible by', function(){
 
+    it('seventeen', function(){
+      expect(javabuzz.isDivisibleBySeventeen(17)).toBe(true);
+    });
+
 		it('twelve', function(){
 			expect(javabuzz.isDivisibleByTwelve(12)).toBe(true);
 		});
@@ -29,4 +33,17 @@ describe('Javabuzz', function(){
     });
 
 	});
+
+  describe('should say', function(){
+
+    it('Check yourself before you wreck yourself', function(){
+      expect(javabuzz.says(17)).toEqual('Check yourself before you wreck yourself');
+    });
+
+  });
+
+
+
+
+
 });
