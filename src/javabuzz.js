@@ -28,3 +28,7 @@ Javabuzz.prototype.isDivisibleByTwo = function(number) {
   return this._isDivisibleBy(number, 2);
 };
 
+Javabuzz.prototype.says = function(number) {
+	if(this.isDivisibleBySeventeen(17)) return "Check yourself before you wreck yourself";
+};
+

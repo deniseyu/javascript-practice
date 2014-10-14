@@ -6,15 +6,15 @@ describe('Javabuzz', function(){
   	javabuzz = new Javabuzz();
   });
 
-	describe('is divisible by', function(){
+  describe('is divisible by', function(){
 
     it('seventeen', function(){
       expect(javabuzz.isDivisibleBySeventeen(17)).toBe(true);
     });
 
-		it('twelve', function(){
-			expect(javabuzz.isDivisibleByTwelve(12)).toBe(true);
-		});
+	it('twelve', function(){
+		expect(javabuzz.isDivisibleByTwelve(12)).toBe(true);
+	});
 
   	it('six', function(){
     		expect(javabuzz.isDivisibleBySix(6)).toBe(true);
@@ -40,10 +40,10 @@ describe('Javabuzz', function(){
       expect(javabuzz.says(17)).toEqual('Check yourself before you wreck yourself');
     });
 
+    it('And I cannot lie', function(){
+    	expect(javabuzz.says(12)).toEqual('And I cannot lie');
+    });
+
   });
-
-
-
-
 
 });
