@@ -48,6 +48,10 @@ describe('Javabuzz', function(){
       expect(javabuzz.says(6)).toEqual("I like big butts");
     });
 
+     it('butts', function(){
+      expect(javabuzz.says(4)).toEqual("butts");
+    });
+
   });
 
 });

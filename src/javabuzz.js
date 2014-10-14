@@ -29,7 +29,9 @@ Javabuzz.prototype.isDivisibleByTwo = function(number) {
 };
 
 Javabuzz.prototype.says = function(number) {
-	if(this.isDivisibleBySeventeen(number)) return "Check yourself before you wreck yourself";
+  if(this.isDivisibleBySeventeen(number)) return "Check yourself before you wreck yourself";
   if(this.isDivisibleByTwelve(number)) return "And I cannot lie";
+  if(this.isDivisibleBySix(number)) return "I like big butts";
+  if(this.isDivisibleByFour(number)) return "butts";
   return number;
 };
