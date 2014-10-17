@@ -12,9 +12,9 @@ describe('Javabuzz', function(){
       expect(javabuzz.isDivisibleBySeventeen(17)).toBe(true);
     });
 
-	it('twelve', function(){
-		expect(javabuzz.isDivisibleByTwelve(12)).toBe(true);
-	});
+  	it('twelve', function(){
+  		expect(javabuzz.isDivisibleByTwelve(12)).toBe(true);
+  	});
 
   	it('six', function(){
     		expect(javabuzz.isDivisibleBySix(6)).toBe(true);
@@ -44,8 +44,20 @@ describe('Javabuzz', function(){
     	expect(javabuzz.says(12)).toEqual("And I cannot lie");
     });
 
-    it('I like big butts', function(){
-      expect(javabuzz.says(6)).toEqual("I like big butts");
+    it('I', function(){
+      expect(javabuzz.says(6)).toEqual("I");
+    });
+
+    it('like', function() {
+      expect(javabuzz.says(4)).toEqual("like");
+    });
+
+    it('big', function() {
+      expect(javabuzz.says(3)).toEqual("big");
+    });
+
+    it('butts', function() {
+      expect(javabuzz.says(2)).toEqual("butts");
     });
 
   });
